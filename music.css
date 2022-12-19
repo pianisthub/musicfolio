@@ -49,7 +49,7 @@ a:hover{
     color:white;
     font-family: Arial, Helvetica, sans-serif;
 	letter-spacing: 1px;
-    box-shadow: 0 0 0 2px #000;
+   
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
@@ -165,8 +165,8 @@ height: 65px;
 
 
 /*contact section css*/
-#contact h4 i{
-	color: #7C67CB;
+#contact h4 i{ /* font images color */ 
+	color: #2e3a97;
 	margin-right: 100px;
 }
 #contact h4{
@@ -174,7 +174,7 @@ height: 65px;
 
 }
 #contact h3 i{
-	color:#7C67CB;
+	color: #2e3a97;
 }
 #contact h3{
 	margin-bottom: 60px;
@@ -223,7 +223,7 @@ height: 65px;
     background-repeat: no-repeat;
     background-size: cover;
     animation-name: example;
-    animation-duration: 12s;
+    animation-duration: 16s;
     animation-iteration-count: infinite;  
     background-position: center;
      
@@ -231,7 +231,7 @@ height: 65px;
 
 #imgbox{
     animation-name: example2;
-    animation-duration: 12s;
+    animation-duration: 16s;
     animation-iteration-count: infinite;
     position: absolute;
     z-index: 1; 
@@ -240,7 +240,7 @@ height: 65px;
     
 }
 #mainPage{
-    mix-blend-mode: hard-light;
+    mix-blend-mode: darken;
     height: 100vh;
     width: 100% ;
     
@@ -424,7 +424,7 @@ height: 65px;
   
 
 	background-color: #232747;
-	border: solid 5px #7C67CB;
+	border: solid 5px #110e1f;
 
     
 }
@@ -554,13 +554,18 @@ width:90%;
     
 }
 
+.subhead{ /* intro title */
+
+    margin-left: 40px;
+}
+
 .lead{ /* intro paragraphy */
 
     
         margin-top: 10px; /* Set a 10px top margin for the text */
-        margin-right: 15px; /* Set a 15px right margin for the text */
+        margin-right: 44px; /* Set a 15px right margin for the text */
         margin-bottom: 10px; /* Set a 10px bottom margin for the text */
-        margin-left: 5px; /* Set a 15px left margin for the text */
+        margin-left: 45px; /* Set a 15px left margin for the text */
       
       
 
