@@ -149,6 +149,29 @@ height: 65px;
 
 
 
+/* behold images */
+
+
+img.behold-grid-image{
+
+   
+}
+
+.behold-grid-post{
+
+
+   max-width: 500%;
+ gap:20%;
+   width:250%;
+   padding-bottom:250%;
+
+    
+   
+}
+
+
+
+
 /*products section css*/
 #products h3{
 	text-align: center;
